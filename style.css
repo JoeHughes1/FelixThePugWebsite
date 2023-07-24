@@ -1,0 +1,101 @@
+body {
+    background: rgb(81,79,102);
+    background: linear-gradient(90deg, rgba(81,79,102,1) 0%, rgba(148,148,187,1) 50%, rgba(156,233,249,1) 100%);
+}
+
+
+div{
+    background-color: rgba(255,255,255,.5);
+    padding: 30px;
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+:any-link {
+    color: purple;
+}
+
+a:hover {
+    color:  gray;
+}
+
+a: {
+    color: black;
+}
+
+img {
+    width: 500px;
+}
+
+.navbar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 2000px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navlinks{
+    font-size: 25px;
+    position:relative;
+    left: 1000px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.body {
+    width: 1800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.contact {
+    width: 1800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gallery {
+    display: grid;
+    width: 1800px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.sites{
+    width: 1800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
